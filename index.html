@@ -59,7 +59,9 @@ td {width: 50%;}
 </table>
 
 
-
+<h2>Data table</h2>
+<textarea v-model="unitsTable"></textarea>
+	
 </div>
 
 <script language="javascript">
@@ -87,6 +89,9 @@ var inputValue3=100;
 			inputValue3: inputValue3
 		},
 		computed : {
+			unitsTable: function() {
+				return JSON.stringify(this.unitsData,2);	
+			},
 			outputValue: function() {
 				var rv="";
 				if ((this.inputValue!=="") && (this.outputUnit!=="") && (this.inputUnit!=="")) {
