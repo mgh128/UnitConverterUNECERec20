@@ -1,0 +1,133 @@
+<html>
+<head>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="js/UnitConverterUNECERec20.js"></script>
+
+<style type="text/css">
+body { background-color: #FFFFFF; font-size: 1en; font-family: Arial, Helvetica, Geneva, sans-serif; }
+h1 { text-align: center; }
+table {width: 95%; margin-left: 5%; }
+td {width: 50%;}
+
+</style>
+
+</head>
+<body>
+<h1>Simple demo page for UnitConverterUNECERec20</h1>
+<p>This page makes use of the UnitConverterUNECERec20 JavaScript library soon to be provided at <a href="https://github.com/gs1" target="_blank">https://github.com/gs1</a></p>
+<p>The library provides methods for converting between units of measure expressed using UN ECE Recommentation 20 unit codes.</p>
+<p>It has been developed to enable easier querying and interpretation of sensor data and other quantitative data expressed using UN ECE Recommendation 20 unit codes.</p>
+
+<div id="app1">
+<h2>convert() method</h2>
+<p>The convert method converts a unit code and numeric value into an equivalent value for a specified target unit code</p>
+
+<table>
+<tr><td>convert({"<select id="inputUnit" v-model="inputUnit">
+	<option v-for="option in unitsData" v-bind:value="option.rec20">
+    {{ option.rec20 }}
+  </option>
+</select>",<input type="text" v-model="inputValue">},"<select id="inputUnit" v-model="outputUnit">
+	<option v-for="option in relatedUnits1" >
+    {{ option }}
+  </option>
+</select>")</td><td>Result: <input type="text" v-model="outputValue"></td></tr>
+</table>
+
+<h2>relatedUnits() method</h2>
+<p>The relatedUnits method returns a list of all related units for the same physical property (e.g. all related temperature units)<p>
+<table>
+<tr><td>relatedUnits("<select id="inputUnit2" v-model="inputUnit2">
+	<option v-for="option in unitsData" v-bind:value="option.rec20">
+    {{ option.rec20 }}
+  </option>
+</select>")</td><td>Result: {{JSON.stringify(relatedUnits)}}</td></tr>
+</table>
+
+
+
+<h2>multiconvert() method</h2>
+<p>The multiconvert method converts a unit code and numeric value into equivalent values for all related units of the same physical property (e.g. all related temperature units)<p>
+<table>
+<tr><td colspan="2">multiconvert({"<select id="inputUnit3" v-model="inputUnit3">
+	<option v-for="option in unitsData" v-bind:value="option.rec20">
+    {{ option.rec20 }}
+  </option>
+</select>",<input type="text" v-model="inputValue3">})</td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr><td colspan="2">Result: {{JSON.stringify(multiconvertresults)}}</td></tr>
+</table>
+
+
+
+</div>
+
+<script language="javascript">
+var units=new UnitConverterUNECERec20();
+var unitsData = units.unitsData;
+var inputUnit="FAH";
+var outputUnit="CEL";
+var inputUnit2="ATM";
+var inputValue=212;
+var inputUnit3="CEL";
+var inputValue3=100;
+
+
+
+	var app1 = new Vue({
+		el: "#app1",
+		data : {
+			units: units,
+			unitsData : unitsData,
+			inputUnit: inputUnit,
+			inputUnit2: inputUnit2,
+			inputUnit3: inputUnit3,
+			outputUnit: outputUnit,
+			inputValue: inputValue,
+			inputValue3: inputValue3
+		},
+		computed : {
+			outputValue: function() {
+				var rv="";
+				if ((this.inputValue!=="") && (this.outputUnit!=="") && (this.inputUnit!=="")) {
+					var io={};
+					io[this.inputUnit]=this.inputValue;
+					rv = units.convert(io,this.outputUnit);	
+				}
+				return rv;
+			},
+
+			relatedUnits: function() {
+				return units.relatedUnits(this.inputUnit2);
+			},
+			
+			relatedUnits1: function() {
+				var rv;
+				rv=units.relatedUnits(this.inputUnit);
+				if (rv.indexOf(this.outputUnit) == -1) {
+					this.outputUnit=rv[0];
+				}
+				return rv;
+			},
+
+			multiconvertresults: function() {
+				var rv="";
+
+					var io={};
+					io[this.inputUnit3]=this.inputValue3;
+							
+				rv=units.multiconvert(io);
+
+				return rv;
+			}
+
+		}
+		
+		});
+</script>		
+
+
+
+</body>
+</html>
+
