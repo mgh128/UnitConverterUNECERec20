@@ -34,8 +34,28 @@ class UnitConverterUNECERec20 {
 		{"rec20":"N71","name":"therm (EC)","symbol":"thm(EC)","multiplier":1.05506E8,"offset":0,"type":"energy"},
 		{"rec20":"N72","name":"therm (US)","symbol":"thm(US)","multiplier":1.054804E8,"offset":0,"type":"energy"},
 		{"rec20":"J55","name":"watt second","symbol":"Ws","multiplier":1,"offset":0,"type":"energy"},
-
-
+		{"rec20":"MTR","name":"metre","symbol":"m","multiplier":1,"offset":0,"type":"length"},
+		{"rec20":"A11","name":"angstrom","symbol":"Å","multiplier":1E-10,"offset":0,"type":"length"},
+		{"rec20":"A71","name":"femtometre","symbol":"fm","multiplier":1E-15,"offset":0,"type":"length"},
+		{"rec20":"C45","name":"nanometre","symbol":"nm","multiplier":1E-9,"offset":0,"type":"length"},
+		{"rec20":"4H","name":"micrometre","symbol":"µm","multiplier":1E-6,"offset":0,"type":"length"},
+		{"rec20":"A12","name":"astronomical unit","symbol":"ua","multiplier":1.49597870E11,"offset":0,"type":"length"},
+		{"rec20":"DMT","name":"decimetre","symbol":"dm","multiplier":0.1,"offset":0,"type":"length"},
+		{"rec20":"CMT","name":"centimetre","symbol":"cm","multiplier":0.01,"offset":0,"type":"length"},
+		{"rec20":"MMT","name":"millimetre","symbol":"mm","multiplier":0.001,"offset":0,"type":"length"},
+		{"rec20":"INH","name":"inch","symbol":"in","multiplier":0.0254,"offset":0,"type":"length"},
+		{"rec20":"FOT","name":"foot","symbol":"ft","multiplier":0.3048,"offset":0,"type":"length"},
+		{"rec20":"YRD","name":"yard","symbol":"yd","multiplier":0.9144,"offset":0,"type":"length"},
+		{"rec20":"NMI","name":"nautical mile","symbol":"n mile","multiplier":1852,"offset":0,"type":"length"},
+		{"rec20":"A45","name":"decametre","symbol":"dam","multiplier":10,"offset":0,"type":"length"},
+		{"rec20":"HMT","name":"hectometre","symbol":"hm","multiplier":100,"offset":0,"type":"length"},
+		{"rec20":"KMT","name":"kilometre","symbol":"km","multiplier":1000,"offset":0,"type":"length"},
+		{"rec20":"B57","name":"light year","symbol":"ly","multiplier":9.46073E15,"offset":0,"type":"length"},
+		{"rec20":"AK","name":"fathom","symbol":"fth","multiplier":1.8288,"offset":0,"type":"length"},
+		{"rec20":"M50","name":"furlong","symbol":"fur","multiplier":201.168,"offset":0,"type":"length"},
+		{"rec20":"M49","name":"chain (based on US survey foot)","symbol":"ch (US survey)","multiplier":20.11684,"offset":0,"type":"length"},
+		{"rec20":"X1","name":"Gunter's chain","symbol":"ch (UK)","multiplier":20.1168,"offset":0,"type":"length"},
+		{"rec20":"M51","name":"foot (US survey)","symbol":"ft (US survey)","multiplier":0.3048006,"offset":0,"type":"length"},
 
 		];
 	}
