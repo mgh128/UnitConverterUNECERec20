@@ -56,7 +56,22 @@ class UnitConverterUNECERec20 {
 		{"rec20":"M49","name":"chain (based on US survey foot)","symbol":"ch (US survey)","multiplier":20.11684,"offset":0,"type":"length"},
 		{"rec20":"X1","name":"Gunter's chain","symbol":"ch (UK)","multiplier":20.1168,"offset":0,"type":"length"},
 		{"rec20":"M51","name":"foot (US survey)","symbol":"ft (US survey)","multiplier":0.3048006,"offset":0,"type":"length"},
-
+		{"rec20":"KMH","name":"kilometres per hour","symbol":"km/h","multiplier":0.277777778,"offset":0,"type":"speed"},
+		{"rec20":"MTS","name":"metres per second","symbol":"m/s","multiplier":1,"offset":0,"type":"speed"},
+		{"rec20":"HM","name":"miles per hour","symbol":"mile/h","multiplier":0.44704,"offset":0,"type":"speed"},
+		{"rec20":"M57","name":"miles per minute","symbol":"mi/min","multiplier":26.8224,"offset":0,"type":"speed"},
+		{"rec20":"M58","name":"miles per second","symbol":"mi/s","multiplier":1609.344,"offset":0,"type":"speed"},
+		{"rec20":"KNT","name":"knot","symbol":"kn","multiplier":0.514444,"offset":0,"type":"speed"},
+		{"rec20":"M62","name":"kilometres per second","symbol":"km/s","multiplier":1000,"offset":0,"type":"speed"},
+		{"rec20":"H49","name":"centimetres per hour","symbol":"cm/h","multiplier":0.277777778E-6,"offset":0,"type":"speed"},
+		{"rec20":"2M","name":"centimetres per second","symbol":"cm/s","multiplier":0.01,"offset":0,"type":"speed"},
+		{"rec20":"K14","name":"foot per hour","symbol":"ft/h","multiplier":8.466667E-5,"offset":0,"type":"speed"},
+		{"rec20":"FR","name":"foot per minute","symbol":"ft/min","multiplier":5.08E-3,"offset":0,"type":"speed"},
+		{"rec20":"FS","name":"foot per second","symbol":"ft/s","multiplier":0.3048,"offset":0,"type":"speed"},
+		{"rec20":"M63","name":"inch per minute","symbol":"in/min","multiplier":4.233333E-4,"offset":0,"type":"speed"},
+		{"rec20":"IU","name":"inch per second","symbol":"in/s","multiplier":0.0254,"offset":0,"type":"speed"},
+		{"rec20":"M61","name":"inch per year","symbol":"in/y","multiplier":8.048774E-10,"offset":0,"type":"speed"},
+		{"rec20":"2X","name":"metre per minute","symbol":"m/min","multiplier":1/60,"offset":0,"type":"speed"},
 		];
 	}
 
