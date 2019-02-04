@@ -22,6 +22,7 @@ class UnitConverterUNECERec20 {
 		{"rec20":"MGM","name":"milligram","symbol":"mg","multiplier":0.000001,"offset":0,"type":"mass"},
 		{"rec20":"MC","name":"microgram","symbol":"µg","multiplier":0.000000001,"offset":0,"type":"mass"},
 		{"rec20":"STI","name":"stone (UK)","symbol":"st","multiplier":6.350293,"offset":0,"type":"mass"},
+		{"rec20":"TNE","name":"tonne (metric ton)","symbol":"t","multiplier":1000,"offset":0,"type":"mass"},
 		{"rec20":"JOU","name":"joule","symbol":"J","multiplier":1,"offset":0,"type":"energy"},
 		{"rec20":"A53","name":"electronvolt","symbol":"eV","multiplier":1.602176487E-19,"offset":0,"type":"energy"},
 		{"rec20":"D60","name":"calorie (international table)","symbol":"cal(IT)","multiplier":4.1868,"offset":0,"type":"energy"},
