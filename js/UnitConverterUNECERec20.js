@@ -226,6 +226,11 @@ class UnitConverterUNECERec20 {
 		{"rec20":"M43","name":"mil","symbol":"mil","multiplier":0.0009817477042,"offset":0,"type":"angle"},
 		{"rec20":"M44","name":"revolution","symbol":"rev","multiplier":6.283185307,"offset":0,"type":"angle"},
 			
+		{"rec20":"2A","name":"radian per second","symbol":"rad/s","multiplier":1,"offset":0,"type":"angular velocity"},
+		{"rec20":"M46","name":"revolution per minute ","symbol":"r/min","multiplier":0.1047198,"offset":0,"type":"angular velocity"},
+
+		{"rec20":"2B","name":"radian per second squared","symbol":"rad/s²","multiplier":1,"offset":0,"type":"angular acceleration"},
+		{"rec20":"M45","name":"degree [unit of angle] per second squared","symbol":"°/s²","multiplier":1.745329e-2,"offset":0,"type":"angular acceleration"},
 			
 		{"rec20":"KGM","name":"kilogram","symbol":"kg","multiplier":1,"offset":0,"type":"mass"},
 		{"rec20":"GRM","name":"gram","symbol":"g","multiplier":0.001,"offset":0,"type":"mass"},
