@@ -140,6 +140,32 @@ class UnitConverterUNECERec20 {
 		{"rec20":"IU","name":"inch per second","symbol":"in/s","multiplier":0.0254,"offset":0,"type":"speed"},
 		{"rec20":"M61","name":"inch per year","symbol":"in/y","multiplier":8.048774E-10,"offset":0,"type":"speed"},
 		{"rec20":"2X","name":"metre per minute","symbol":"m/min","multiplier":1/60,"offset":0,"type":"speed"},
+			
+		{"rec20":"HTZ","name":"hertz","symbol":"Hz","multiplier":1,"offset":0,"type":"frequency"},
+		{"rec20":"KHZ","name":"kilohertz","symbol":"kHz","multiplier":1.00E+03,"offset":0,"type":"frequency"},
+		{"rec20":"MHZ","name":"megahertz","symbol":"MHz","multiplier":1.00E+06,"offset":0,"type":"frequency"},
+		{"rec20":"A86","name":"gigahertz","symbol":"GHz","multiplier":1.00E+09,"offset":0,"type":"frequency"},
+		{"rec20":"D29","name":"terahertz","symbol":"THz","multiplier":1.00E+12,"offset":0,"type":"frequency"},
+
+		{"rec20":"VLT","name":"volt","symbol":"V","multiplier":1,"offset":0,"type":"voltage"},
+		{"rec20":"N99","name":"picovolt","symbol":"pV","multiplier":1.00E-12,"offset":0,"type":"voltage"},
+		{"rec20":"2Z","name":"millivolt","symbol":"mV","multiplier":1.00E-03,"offset":0,"type":"voltage"},
+		{"rec20":"B78","name":"megavolt","symbol":"MV","multiplier":1.00E+06,"offset":0,"type":"voltage"},
+		{"rec20":"D82","name":"microvolt","symbol":"µV","multiplier":1.00E-06,"offset":0,"type":"voltage"},
+		{"rec20":"KVT","name":"kilovolt","symbol":"kV","multiplier":1000,"offset":0,"type":"voltage"},
+
+		{"rec20":"CDL","name":"candela","symbol":"cd","multiplier":1,"offset":0,"type":"luminous intensity"},
+		{"rec20":"P33","name":"kilocandela","symbol":"kcd","multiplier":1.00E+03,"offset":0,"type":"luminous intensity"},
+		{"rec20":"P34","name":"millicandela","symbol":"mcd","multiplier":1.00E-03,"offset":0,"type":"luminous intensity"},
+
+		{"rec20":"C34","name":"mole","symbol":"mol","multiplier":1,"offset":0,"type":"amount of substance"},
+		{"rec20":"B45","name":"kilomole","symbol":"kmol","multiplier":1.00E+03,"offset":0,"type":"amount of substance"},
+		{"rec20":"C18","name":"millimole","symbol":"mmol","multiplier":1.00E-03,"offset":0,"type":"amount of substance"},
+		{"rec20":"FH","name":"micromole","symbol":"µmol","multiplier":1.00E-06,"offset":0,"type":"amount of substance"},
+
+
+			
+			
 		];
 	}
 
