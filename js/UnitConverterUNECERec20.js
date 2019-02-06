@@ -143,6 +143,14 @@ class UnitConverterUNECERec20 {
 		{"rec20":"E45","name":"milliohm","symbol":"mΩ","multiplier":1e-3,"offset":0,"type":"resistance"},
 		{"rec20":"B94","name":"microohm","symbol":"µΩ","multiplier":1e-6,"offset":0,"type":"resistance"},
 		{"rec20":"P22","name":"nanoohm","symbol":"nΩ","multiplier":1e-9,"offset":0,"type":"resistance"},
+
+		{"rec20":"SIE","name":"siemens","symbol":"S","multiplier":1,"offset":0,"type":"conductance"},
+		{"rec20":"B53","name":"kilosiemens","symbol":"kS","multiplier":1e3,"offset":0,"type":"conductance"},
+		{"rec20":"C27","name":"millisiemens","symbol":"mS","multiplier":1e-3,"offset":0,"type":"conductance"},
+		{"rec20":"B99","name":"microsiemens","symbol":"µS","multiplier":1e-6,"offset":0,"type":"conductance"},
+		{"rec20":"N92","name":"picosiemens","symbol":"pS","multiplier":1e-12,"offset":0,"type":"conductance"},
+		{"rec20":"NQ","name":"mho","symbol":"mho","multiplier":1,"offset":0,"type":"conductance"},
+		{"rec20":"NR","name":"micromho","symbol":"µmho","multiplier":1e-6,"offset":0,"type":"conductance"},
 			
 		{"rec20":"C81","name":"radian","symbol":"rad","multiplier":1,"offset":0,"type":"angle"},
 		{"rec20":"C25","name":"milliradian","symbol":"mrad","multiplier":1.00E-03,"offset":0,"type":"angle"},
