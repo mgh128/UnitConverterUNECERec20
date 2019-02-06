@@ -67,6 +67,17 @@ class UnitConverterUNECERec20 {
 		{"rec20":"M76","name":"poundal","symbol":"pdl","multiplier":1.382550e-1,"offset":0,"type":"force"},
 		{"rec20":"M77","name":"kilogram metre per second squared","symbol":"kg·m/s²","multiplier":1,"offset":0,"type":"force"},
 		{"rec20":"M78","name":"pond","symbol":"p","multiplier":9.80665e-3,"offset":0,"type":"force"},
+
+		{"rec20":"C81","name":"radian","symbol":"rad","multiplier":1,"offset":0,"type":"angle"},
+		{"rec20":"C25","name":"milliradian","symbol":"mrad","multiplier":1.00E-03,"offset":0,"type":"angle"},
+		{"rec20":"B97","name":"microradian","symbol":"µrad","multiplier":1.00E-06,"offset":0,"type":"angle"},
+		{"rec20":"A91","name":"gon","symbol":"gon","multiplier":0.01570796327,"offset":0,"type":"angle"},
+		{"rec20":"DD","name":"degree","symbol":"°","multiplier":0.01745329252,"offset":0,"type":"angle"},
+		{"rec20":"D61","name":"minute","symbol":"'","multiplier":0.0002908882087,"offset":0,"type":"angle"},
+		{"rec20":"D62","name":"second","symbol":"\"","multiplier":0.000004848136811,"offset":0,"type":"angle"},
+		{"rec20":"M43","name":"mil","symbol":"mil","multiplier":0.0009817477042,"offset":0,"type":"angle"},
+		{"rec20":"M44","name":"revolution","symbol":"rev","multiplier":6.283185307,"offset":0,"type":"angle"},
+			
 			
 		{"rec20":"KGM","name":"kilogram","symbol":"kg","multiplier":1,"offset":0,"type":"mass"},
 		{"rec20":"GRM","name":"gram","symbol":"g","multiplier":0.001,"offset":0,"type":"mass"},
