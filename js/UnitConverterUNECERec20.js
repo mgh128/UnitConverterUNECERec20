@@ -124,6 +124,16 @@ class UnitConverterUNECERec20 {
 		{"rec20":"E09","name":"milliampere hour","symbol":"mA·h","multiplier":3.6,"offset":0,"type":"charge"},
 		{"rec20":"N95","name":"ampere minute","symbol":"A·min","multiplier":60,"offset":0,"type":"charge"},
 		{"rec20":"N94","name":"franklin","symbol":"Fr","multiplier":3.335641e-10,"offset":0,"type":"charge"},
+
+		{"rec20":"AMP","name":"ampere","symbol":"A","multiplier":1,"offset":0,"type":"current"},
+		{"rec20":"B22","name":"kiloampere","symbol":"kA","multiplier":1e3,"offset":0,"type":"current"},
+		{"rec20":"H38","name":"megaampere","symbol":"MA","multiplier":1e6,"offset":0,"type":"current"},
+		{"rec20":"4K","name":"milliampere","symbol":"mA","multiplier":1e-3,"offset":0,"type":"current"},
+		{"rec20":"B84","name":"microampere","symbol":"µA","multiplier":1e-6,"offset":0,"type":"current"},
+		{"rec20":"C39","name":"nanoampere","symbol":"nA","multiplier":1e-9,"offset":0,"type":"current"},
+		{"rec20":"C70","name":"picoampere","symbol":"pA","multiplier":1e-12,"offset":0,"type":"current"},
+		{"rec20":"N96","name":"biot","symbol":"Bi","multiplier":10,"offset":0,"type":"current"},
+		{"rec20":"N97","name":"gilbert","symbol":"Gi","multiplier":0.7957747,"offset":0,"type":"current"},	
 			
 		{"rec20":"C81","name":"radian","symbol":"rad","multiplier":1,"offset":0,"type":"angle"},
 		{"rec20":"C25","name":"milliradian","symbol":"mrad","multiplier":1.00E-03,"offset":0,"type":"angle"},
