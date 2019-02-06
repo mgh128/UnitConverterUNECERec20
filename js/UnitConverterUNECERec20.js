@@ -456,7 +456,8 @@ class UnitConverterUNECERec20 {
 		{"rec20":"D91","name":"rem","symbol":"rem","multiplier":1e-2,"offset":0,"type":"effective dose"},
 		{"rec20":"L31","name":"milliroentgen aequivalent men","symbol":"mrem","multiplier":1e-5,"offset":0,"type":"effective dose"},
 
-			
+		{"rec20":"P57","name":"gray per minute","symbol":"Gy/min","multiplier":1.66667E-2,"offset":0,"type":"absorbed dose rate"},
+
 		];
 	}
 
