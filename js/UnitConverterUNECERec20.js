@@ -460,6 +460,28 @@ class UnitConverterUNECERec20 {
 		{"rec20":"P55","name":"microgray per second","symbol":"µGy/s","multiplier":1e-6,"offset":0,"type":"absorbed dose rate"},
 		{"rec20":"P56","name":"nanogray per second","symbol":"nGy/s","multiplier":1e-9,"offset":0,"type":"absorbed dose rate"},
 		{"rec20":"P57","name":"gray per minute","symbol":"Gy/min","multiplier":1.66667e-2,"offset":0,"type":"absorbed dose rate"},
+		{"rec20":"P58","name":"milligray per minute","symbol":"mGy/min","multiplier":1.66667e-5,"offset":0,"type":"absorbed dose rate"},
+		{"rec20":"P59","name":"microgray per minute","symbol":"µGy/min","multiplier":1.66667e-8,"offset":0,"type":"absorbed dose rate"},
+		{"rec20":"P60","name":"nanogray per minute","symbol":"nGy/min","multiplier":1.66667e-11,"offset":0,"type":"absorbed dose rate"},
+		{"rec20":"P61","name":"gray per hour","symbol":"Gy/h","multiplier":2.77778e-4,"offset":0,"type":"absorbed dose rate"},
+		{"rec20":"P62","name":"milligray per hour","symbol":"mGy/h","multiplier":2.77778e-7,"offset":0,"type":"absorbed dose rate"},
+		{"rec20":"P63","name":"microgray per hour","symbol":"µGy/h","multiplier":2.77778e-10,"offset":0,"type":"absorbed dose rate"},
+		{"rec20":"P64","name":"nanogray per hour","symbol":"nGy/h","multiplier":2.77778e-13,"offset":0,"type":"absorbed dose rate"},
+
+		{"rec20":"P65","name":"sievert per second","symbol":"Sv/s","multiplier":1,"offset":0,"type":"effective dose rate"},
+		{"rec20":"P66","name":"millisievert per second","symbol":"mSv/s","multiplier":1e-3,"offset":0,"type":"effective dose rate"},
+		{"rec20":"P67","name":"microsievert per second","symbol":"µSv/s","multiplier":1e-6,"offset":0,"type":"effective dose rate"},
+		{"rec20":"P68","name":"nanosievert per second","symbol":"nSv/s","multiplier":1e-9,"offset":0,"type":"effective dose rate"},
+		{"rec20":"P69","name":"rem per second","symbol":"rem/s","multiplier":1e-2,"offset":0,"type":"effective dose rate"},
+		{"rec20":"P70","name":"sievert per hour","symbol":"Sv/h","multiplier":2.77778e-4,"offset":0,"type":"effective dose rate"},
+		{"rec20":"P71","name":"millisievert per hour","symbol":"mSv/h","multiplier":0.277777778e-7,"offset":0,"type":"effective dose rate"},
+		{"rec20":"P72","name":"microsievert per hour","symbol":"µSv/h","multiplier":0.277777778e-10,"offset":0,"type":"effective dose rate"},
+		{"rec20":"P73","name":"nanosievert per hour","symbol":"nSv/h","multiplier":0.277777778e-13,"offset":0,"type":"effective dose rate"},
+		{"rec20":"P74","name":"sievert per minute","symbol":"Sv/min","multiplier":0.016666,"offset":0,"type":"effective dose rate"},
+		{"rec20":"P75","name":"millisievert per minute","symbol":"mSv/min","multiplier":1.666666667e-5,"offset":0,"type":"effective dose rate"},
+		{"rec20":"P76","name":"microsievert per minute","symbol":"µSv/min","multiplier":1.666666667e-8,"offset":0,"type":"effective dose rate"},
+		{"rec20":"P77","name":"nanosievert per minute","symbol":"nSv/min","multiplier":1.666666667e-11,"offset":0,"type":"effective dose rate"},
+		
 
 		];
 	}
