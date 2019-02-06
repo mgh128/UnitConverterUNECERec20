@@ -5,9 +5,9 @@ class UnitConverterUNECERec20 {
 
 		this.unitsData=[
 		{"rec20":"KEL","name":"kelvin","symbol":"K","multiplier":1,"offset":0,"type":"temperature"},
-		{"rec20":"FAH","name":"degrees Fahrenheit","symbol":"°F","multiplier":5/9,"offset":273.15-32*5/9,"type":"temperature"},
-		{"rec20":"CEL","name":"degrees Celsius","symbol":"°C","multiplier":1,"offset":273.15,"type":"temperature"},
-		{"rec20":"A48","name":"degrees Rankine","symbol":"°R","multiplier":5/9,"offset":0,"type":"temperature"},
+		{"rec20":"FAH","name":"degrees Fahrenheit","symbol":"ºF","multiplier":5/9,"offset":273.15-32*5/9,"type":"temperature"},
+		{"rec20":"CEL","name":"degrees Celsius","symbol":"ºC","multiplier":1,"offset":273.15,"type":"temperature"},
+		{"rec20":"A48","name":"degrees Rankine","symbol":"ºR","multiplier":5/9,"offset":0,"type":"temperature"},
 			
 		{"rec20":"PAL","name":"pascal","symbol":"Pa","multiplier":1,"offset":0,"type":"pressure"},
 		{"rec20":"H75","name":"decapascal","symbol":"daPa","multiplier":10,"offset":0,"type":"pressure"},
@@ -39,7 +39,7 @@ class UnitConverterUNECERec20 {
 		{"rec20":"K85","name":"pound-force per square foot","symbol":"lbf/ft²","multiplier":47.88026,"offset":0,"type":"pressure"},
 		{"rec20":"84","name":"kilopounds force per square inch","symbol":"klbf/in²","multiplier":6894757.00,"offset":0,"type":"pressure"},
 		{"rec20":"N13","name":"centimetre of mercury (0 ºC)","symbol":"cmHg (0 ºC)","multiplier":1333.22,"offset":0,"type":"pressure"},
-		{"rec20":"N14","name":"centimetre of water (4 ºC)","symbol":"cmH₂O (4 °C)","multiplier":98.0638,"offset":0,"type":"pressure"},
+		{"rec20":"N14","name":"centimetre of water (4 ºC)","symbol":"cmH₂O (4 ºC)","multiplier":98.0638,"offset":0,"type":"pressure"},
 		{"rec20":"N15","name":"foot of water (39.2 ºF)","symbol":"ftH₂O (392 ºF)","multiplier":2988.98,"offset":0,"type":"pressure"},
 		{"rec20":"N16","name":"inch of mercury (32 ºF)","symbol":"inHG (32 ºF)","multiplier":3386.38,"offset":0,"type":"pressure"},
 		{"rec20":"N17","name":"inch of mercury (60 ºF)","symbol":"inHg (60 ºF)","multiplier":3376.85,"offset":0,"type":"pressure"},
@@ -204,7 +204,7 @@ class UnitConverterUNECERec20 {
 		{"rec20":"C25","name":"milliradian","symbol":"mrad","multiplier":1.00E-03,"offset":0,"type":"angle"},
 		{"rec20":"B97","name":"microradian","symbol":"µrad","multiplier":1.00E-06,"offset":0,"type":"angle"},
 		{"rec20":"A91","name":"gon","symbol":"gon","multiplier":0.01570796327,"offset":0,"type":"angle"},
-		{"rec20":"DD","name":"degree","symbol":"°","multiplier":0.01745329252,"offset":0,"type":"angle"},
+		{"rec20":"DD","name":"degree","symbol":"º","multiplier":0.01745329252,"offset":0,"type":"angle"},
 		{"rec20":"D61","name":"minute","symbol":"'","multiplier":0.0002908882087,"offset":0,"type":"angle"},
 		{"rec20":"D62","name":"second","symbol":"\"","multiplier":0.000004848136811,"offset":0,"type":"angle"},
 		{"rec20":"M43","name":"mil","symbol":"mil","multiplier":0.0009817477042,"offset":0,"type":"angle"},
