@@ -329,13 +329,28 @@ class UnitConverterUNECERec20 {
 		{"rec20":"P33","name":"kilocandela","symbol":"kcd","multiplier":1.00E+03,"offset":0,"type":"luminous intensity"},
 		{"rec20":"P34","name":"millicandela","symbol":"mcd","multiplier":1.00E-03,"offset":0,"type":"luminous intensity"},
 
+		{"rec20":"B60","name":"lumen per square metre","symbol":"lm/m²","multiplier":1,"offset":0,"type":"illuminance"},
+		{"rec20":"LUX","name":"lux","symbol":"lx","multiplier":1,"offset":0,"type":"illuminance"},
+		{"rec20":"KLX","name":"kilolux","symbol":"klx","multiplier":1e3,"offset":0,"type":"illuminance"},
+		{"rec20":"P25","name":"lumen per square foot ","symbol":"lm/ft²","multiplier":1.076391e1,"offset":0,"type":"illuminance"},
+		{"rec20":"P26","name":"phot","symbol":"ph","multiplier":1e4,"offset":0,"type":"illuminance"},
+		{"rec20":"P27","name":"footcandle","symbol":"ftc","multiplier":1.076391e1,"offset":0,"type":"illuminance"},
+			
 		{"rec20":"C34","name":"mole","symbol":"mol","multiplier":1,"offset":0,"type":"amount of substance"},
 		{"rec20":"B45","name":"kilomole","symbol":"kmol","multiplier":1.00E+03,"offset":0,"type":"amount of substance"},
 		{"rec20":"C18","name":"millimole","symbol":"mmol","multiplier":1.00E-03,"offset":0,"type":"amount of substance"},
 		{"rec20":"FH","name":"micromole","symbol":"µmol","multiplier":1.00E-06,"offset":0,"type":"amount of substance"},
 
+		{"rec20":"CUR","name":"curie","symbol":"Ci","multiplier":3.7e10,"offset":0,"type":"radioactivity"},
+		{"rec20":"MCU","name":"millicurie","symbol":"mCi","multiplier":3.7e7,"offset":0,"type":"radioactivity"},
+		{"rec20":"M5","name":"microcurie","symbol":"µCi","multiplier":3.7e4,"offset":0,"type":"radioactivity"},
+		{"rec20":"2R","name":"kilocurie","symbol":"kCi","multiplier":3.7e13,"offset":0,"type":"radioactivity"},
+		{"rec20":"BQL","name":"becquerel","symbol":"Bq","multiplier":1,"offset":0,"type":"radioactivity"},
+		{"rec20":"GBQ","name":"gigabecquerel","symbol":"GBq","multiplier":1e9,"offset":0,"type":"radioactivity"},
+		{"rec20":"2Q","name":"kilobecquerel","symbol":"kBq","multiplier":1e3,"offset":0,"type":"radioactivity"},
+		{"rec20":"4N","name":"megabecquerel","symbol":"MBq","multiplier":1e6,"offset":0,"type":"radioactivity"},
+		{"rec20":"H08","name":"microbecquerel","symbol":"µBq","multiplier":1e-6,"offset":0,"type":"radioactivity"},
 
-			
 			
 		];
 	}
