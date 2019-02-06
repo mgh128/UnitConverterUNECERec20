@@ -208,6 +208,18 @@ class UnitConverterUNECERec20 {
 		{"rec20":"M61","name":"inch per year","symbol":"in/y","multiplier":8.048774E-10,"offset":0,"type":"speed"},
 		{"rec20":"2X","name":"metre per minute","symbol":"m/min","multiplier":1/60,"offset":0,"type":"speed"},
 			
+		{"rec20":"MSK","name":"metre per second squared","symbol":"m/s²","multiplier":1,"offset":0,"type":"acceleration"},
+		{"rec20":"A76","name":"gal","symbol":"Gal","multiplier":1e-2,"offset":0,"type":"acceleration"},
+		{"rec20":"C11","name":"milligal","symbol":"mGal","multiplier":1e-5,"offset":0,"type":"acceleration"},
+		{"rec20":"M38","name":"kilometre per second squared","symbol":"km/s²","multiplier":1e3,"offset":0,"type":"acceleration"},
+		{"rec20":"M39","name":"centimetre per second squared","symbol":"cm/s²","multiplier":1e-2,"offset":0,"type":"acceleration"},
+		{"rec20":"M41","name":"millimetre per second squared","symbol":"mm/s²","multiplier":1e-3,"offset":0,"type":"acceleration"},
+		{"rec20":"A73","name":"foot per second squared","symbol":"ft/s²","multiplier":0.3048,"offset":0,"type":"acceleration"},
+		{"rec20":"IV","name":"inch per second squared","symbol":"in/s²","multiplier":0.0254,"offset":0,"type":"acceleration"},
+		{"rec20":"K40","name":"standard acceleration of free fall","symbol":"gn","multiplier":9.80665,"offset":0,"type":"acceleration"},
+		{"rec20":"M40","name":"yard per second squared","symbol":"yd/s²","multiplier":0.9144,"offset":0,"type":"acceleration"},
+		{"rec20":"M42","name":"mile (statute mile) per second squared","symbol":"mi/s²","multiplier":1609.344,"offset":0,"type":"acceleration"},
+			
 		{"rec20":"HTZ","name":"hertz","symbol":"Hz","multiplier":1,"offset":0,"type":"frequency"},
 		{"rec20":"KHZ","name":"kilohertz","symbol":"kHz","multiplier":1.00E+03,"offset":0,"type":"frequency"},
 		{"rec20":"MHZ","name":"megahertz","symbol":"MHz","multiplier":1.00E+06,"offset":0,"type":"frequency"},
