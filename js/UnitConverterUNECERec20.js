@@ -325,6 +325,13 @@ class UnitConverterUNECERec20 {
 		{"rec20":"4T","name":"picofarad","symbol":"pF","multiplier":1e-9,"offset":0,"type":"capacitance"},
 		{"rec20":"N90","name":"kilofarad","symbol":"kF","multiplier":1e3,"offset":0,"type":"capacitance"},
 
+		{"rec20":"D33","name":"tesla","symbol":"T","multiplier":1,"offset":0,"type":"magnetic flux density"},
+		{"rec20":"C29","name":"millitesla","symbol":"mT","multiplier":1e-3,"offset":0,"type":"magnetic flux density"},
+		{"rec20":"D81","name":"microtesla","symbol":"µT","multiplier":1e-6,"offset":0,"type":"magnetic flux density"},
+		{"rec20":"C48","name":"nanotesla","symbol":"nT","multiplier":1e-9,"offset":0,"type":"magnetic flux density"},
+		{"rec20":"P13","name":"kilotesla","symbol":"kT","multiplier":1e3,"offset":0,"type":"magnetic flux density"},
+		{"rec20":"P12","name":"gamma","symbol":"γ","multiplier":1e-9,"offset":0,"type":"magnetic flux density"},
+			
 		{"rec20":"CDL","name":"candela","symbol":"cd","multiplier":1,"offset":0,"type":"luminous intensity"},
 		{"rec20":"P33","name":"kilocandela","symbol":"kcd","multiplier":1.00E+03,"offset":0,"type":"luminous intensity"},
 		{"rec20":"P34","name":"millicandela","symbol":"mcd","multiplier":1.00E-03,"offset":0,"type":"luminous intensity"},
