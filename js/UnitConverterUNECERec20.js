@@ -135,6 +135,15 @@ class UnitConverterUNECERec20 {
 		{"rec20":"N96","name":"biot","symbol":"Bi","multiplier":10,"offset":0,"type":"current"},
 		{"rec20":"N97","name":"gilbert","symbol":"Gi","multiplier":0.7957747,"offset":0,"type":"current"},	
 			
+		{"rec20":"OHM","name":"ohm","symbol":"Ω","multiplier":1,"offset":0,"type":"resistance"},
+		{"rec20":"A87","name":"gigaohm","symbol":"GΩ","multiplier":1e9,"offset":0,"type":"resistance"},
+		{"rec20":"B75","name":"megaohm","symbol":"MΩ","multiplier":1e6,"offset":0,"type":"resistance"},
+		{"rec20":"H44","name":"teraohm","symbol":"TΩ","multiplier":1e12,"offset":0,"type":"resistance"},
+		{"rec20":"B49","name":"kiloohm","symbol":"kΩ","multiplier":1e3,"offset":0,"type":"resistance"},
+		{"rec20":"E45","name":"milliohm","symbol":"mΩ","multiplier":1e-3,"offset":0,"type":"resistance"},
+		{"rec20":"B94","name":"microohm","symbol":"µΩ","multiplier":1e-6,"offset":0,"type":"resistance"},
+		{"rec20":"P22","name":"nanoohm","symbol":"nΩ","multiplier":1e-9,"offset":0,"type":"resistance"},
+			
 		{"rec20":"C81","name":"radian","symbol":"rad","multiplier":1,"offset":0,"type":"angle"},
 		{"rec20":"C25","name":"milliradian","symbol":"mrad","multiplier":1.00E-03,"offset":0,"type":"angle"},
 		{"rec20":"B97","name":"microradian","symbol":"µrad","multiplier":1.00E-06,"offset":0,"type":"angle"},
