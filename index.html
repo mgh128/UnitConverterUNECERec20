@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <script src="https://cdn.jsdelivr.net/npm/vue"></script>
@@ -9,6 +10,13 @@ h1 { text-align: center; }
 table {width: 95%; margin-left: 5%; }
 td {width: 50%;}
 textarea {width: 100%; height: 4em; font-size: 1em;}
+.supportedPropertyType {width: 15%; text-align: right; padding-right: 1em;}
+.supportedPropertyUnits {width: 85%; text-align: left; padding-left: 1em;}
+
+table.supportedProperties  tbody tr:nth-child(odd) { background-color: #ffeecc }
+table.supportedProperties  tbody tr:nth-child(even) { background-color: #ccccff }
+
+select#selectCodeNameOrSymbol { font-size: 1em; font-family: Arial, Helvetica, Geneva, sans-serif; font-weight: 700;}
 
 </style>
 
@@ -60,6 +68,21 @@ textarea {width: 100%; height: 4em; font-size: 1em;}
 </table>
 
 
+<h2>Supported properties</h2>
+<table class="supportedProperties">
+<thead>
+<tr>
+	<th class="supportedPropertyType">Property</th><th class="supportedPropertyUnits">Show&nbsp;<select id="selectCodeNameOrSymbol" v-model="selectCodeNameOrSymbol">
+	<option v-for="option in selectionOptions">{{option}}
+	</select></th>
+</tr>
+</thead>
+<tbody>
+<tr v-for="property in properties"><td class="supportedPropertyType">{{property.type}}</td><td class="supportedPropertyUnits">{{property[selectCodeNameOrSymbol].join("  ,  ")}}</td></tr>
+</tbody>
+</table>
+
+
 <h2>Data table</h2>
 <textarea v-model="unitsTable"></textarea>
 	
@@ -74,7 +97,12 @@ var inputUnit2="ATM";
 var inputValue=212;
 var inputUnit3="CEL";
 var inputValue3=100;
+var selectCodeNameOrSymbol="codes";
+var selectionOptions = ["codes","symbols","names"];
 
+function escapeEntities(string) {
+	return string.replace("°","&deg;");
+}
 
 
 	var app1 = new Vue({
@@ -87,11 +115,37 @@ var inputValue3=100;
 			inputUnit3: inputUnit3,
 			outputUnit: outputUnit,
 			inputValue: inputValue,
-			inputValue3: inputValue3
+			inputValue3: inputValue3,
+			selectCodeNameOrSymbol: selectCodeNameOrSymbol,
+			selectionOptions : selectionOptions
 		},
 		computed : {
 			unitsTable: function() {
 				return JSON.stringify(this.unitsData,2);	
+			},
+			properties: function() {
+				var properties={};
+				for (i in this.unitsData) {
+					var el=unitsData[i];
+					var t=el.type;
+					var s=el.symbol;
+					var n=el.name;
+					var c=el.rec20;
+					if (properties.hasOwnProperty(t)) {
+						properties[t].symbols.push(escapeEntities(s));
+						properties[t].names.push(escapeEntities(n));
+						properties[t].codes.push(c);
+					} else {
+						var e={}
+						e.symbols=[escapeEntities(s)];
+						e.names=[escapeEntities(n)];
+						e.codes=[c];
+						e.type=t;
+						properties[t]=e;
+					}
+				}
+				console.log(JSON.stringify(properties));
+				return properties;
 			},
 			outputValue: function() {
 				var rv="";
