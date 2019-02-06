@@ -351,6 +351,16 @@ class UnitConverterUNECERec20 {
 		{"rec20":"4N","name":"megabecquerel","symbol":"MBq","multiplier":1e6,"offset":0,"type":"radioactivity"},
 		{"rec20":"H08","name":"microbecquerel","symbol":"µBq","multiplier":1e-6,"offset":0,"type":"radioactivity"},
 
+		{"rec20":"A95","name":"gray","symbol":"Gy","multiplier":1,"offset":0,"type":"absorbed dose"},
+		{"rec20":"C13","name":"milligray","symbol":"mGy","multiplier":1e-3,"offset":0,"type":"absorbed dose"},
+		{"rec20":"C80","name":"rad","symbol":"rad","multiplier":1e-2,"offset":0,"type":"absorbed dose"},
+		{"rec20":"A61","name":"erg per gram","symbol":"J/kg","multiplier":1e-4,"offset":0,"type":"absorbed dose"},
+
+		{"rec20":"D13","name":"sievert","symbol":"Sv","multiplier":1,"offset":0,"type":"effective dose"},
+		{"rec20":"C28","name":"millisievert","symbol":"mSv","multiplier":1e-3,"offset":0,"type":"effective dose"},
+		{"rec20":"D91","name":"rem","symbol":"rem","multiplier":1e-2,"offset":0,"type":"effective dose"},
+		{"rec20":"L31","name":"milliroentgen aequivalent men","symbol":"mrem","multiplier":1e-5,"offset":0,"type":"effective dose"},
+
 			
 		];
 	}
