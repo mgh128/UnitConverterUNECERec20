@@ -237,6 +237,14 @@ class UnitConverterUNECERec20 {
 		{"rec20":"B78","name":"megavolt","symbol":"MV","multiplier":1.00E+06,"offset":0,"type":"voltage"},
 		{"rec20":"D82","name":"microvolt","symbol":"µV","multiplier":1.00E-06,"offset":0,"type":"voltage"},
 		{"rec20":"KVT","name":"kilovolt","symbol":"kV","multiplier":1000,"offset":0,"type":"voltage"},
+			
+		{"rec20":"FAR","name":"farad","symbol":"F","multiplier":1,"offset":0,"type":"capacitance"},
+		{"rec20":"H48","name":"attofarad","symbol":"aF","multiplier":1e-18,"offset":0,"type":"capacitance"},
+		{"rec20":"C10","name":"millifarad","symbol":"mF","multiplier":1e-3,"offset":0,"type":"capacitance"},
+		{"rec20":"4O","name":"microfarad","symbol":"µF","multiplier":1e-6,"offset":0,"type":"capacitance"},
+		{"rec20":"C41","name":"nanofarad","symbol":"nF","multiplier":1e-9,"offset":0,"type":"capacitance"},
+		{"rec20":"4T","name":"picofarad","symbol":"pF","multiplier":1e-9,"offset":0,"type":"capacitance"},
+		{"rec20":"N90","name":"kilofarad","symbol":"kF","multiplier":1e3,"offset":0,"type":"capacitance"},
 
 		{"rec20":"CDL","name":"candela","symbol":"cd","multiplier":1,"offset":0,"type":"luminous intensity"},
 		{"rec20":"P33","name":"kilocandela","symbol":"kcd","multiplier":1.00E+03,"offset":0,"type":"luminous intensity"},
