@@ -388,6 +388,21 @@ class UnitConverterUNECERec20 {
 		{"rec20":"C48","name":"nanotesla","symbol":"nT","multiplier":1e-9,"offset":0,"type":"magnetic flux density"},
 		{"rec20":"P13","name":"kilotesla","symbol":"kT","multiplier":1e3,"offset":0,"type":"magnetic flux density"},
 		{"rec20":"P12","name":"gamma","symbol":"γ","multiplier":1e-9,"offset":0,"type":"magnetic flux density"},
+
+		{"rec20":"81","name":"henry","symbol":"H","multiplier":1,"offset":0,"type":"inductance"},
+		{"rec20":"C14","name":"millihenry","symbol":"mH","multiplier":1e-3,"offset":0,"type":"inductance"},
+		{"rec20":"B90","name":"microhenry","symbol":"µH","multiplier":1e-6,"offset":0,"type":"inductance"},
+		{"rec20":"C43","name":"nanohenry","symbol":"nH","multiplier":1e-9,"offset":0,"type":"inductance"},
+		{"rec20":"C73","name":"picohenry","symbol":"pH","multiplier":1e-12,"offset":0,"type":"inductance"},
+		{"rec20":"P24","name":"kilohenry","symbol":"kH","multiplier":1e3,"offset":0,"type":"inductance"},
+
+		{"rec20":"WEB","name":"weber","symbol":"Wb","multiplier":1,"offset":0,"type":"magnetic flux"},
+		{"rec20":"C33","name":"milliweber","symbol":"mWb","multiplier":1e-3,"offset":0,"type":"magnetic flux"},
+		{"rec20":"P11","name":"kiloweber","symbol":"kWb","multiplier":1e3,"offset":0,"type":"magnetic flux"},
+
+		{"rec20":"D59","name":"weber per metre","symbol":"Wb/m","multiplier":1,"offset":0,"type":"magnetic vector potential"},
+		{"rec20":"B56","name":"kiloweber per metre","symbol":"kWb/m","multiplier":1e3,"offset":0,"type":"magnetic vector potential"},
+		{"rec20":"D60","name":"weber per millimetre","symbol":"Wb/mm","multiplier":1e3,"offset":0,"type":"magnetic vector potential"},
 			
 		{"rec20":"CDL","name":"candela","symbol":"cd","multiplier":1,"offset":0,"type":"luminous intensity"},
 		{"rec20":"P33","name":"kilocandela","symbol":"kcd","multiplier":1.00E+03,"offset":0,"type":"luminous intensity"},
