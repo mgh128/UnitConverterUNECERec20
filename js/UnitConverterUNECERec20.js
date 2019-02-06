@@ -141,6 +141,14 @@ class UnitConverterUNECERec20 {
 		{"rec20":"N72","name":"therm (US)","symbol":"thm(US)","multiplier":1.054804E8,"offset":0,"type":"energy"},
 		{"rec20":"J55","name":"watt second","symbol":"Ws","multiplier":1,"offset":0,"type":"energy"},
 
+		{"rec20":"NU","name":"newton metre","symbol":"N·m","multiplier":1,"offset":0,"type":"torque"},
+		{"rec20":"B74","name":"meganewton metre","symbol":"MN·m","multiplier":1e6,"offset":0,"type":"torque"},
+		{"rec20":"B48","name":"kilonewton metre","symbol":"kN·m","multiplier":1e3,"offset":0,"type":"torque"},
+		{"rec20":"D83","name":"millinewton metre","symbol":"mN·m","multiplier":1e-3,"offset":0,"type":"torque"},
+		{"rec20":"B93","name":"micronewton metre","symbol":"µN·m","multiplier":1e-6,"offset":0,"type":"torque"},
+		{"rec20":"DN","name":"decinewton metre","symbol":"dN·m","multiplier":1e-1,"offset":0,"type":"torque"},
+		{"rec20":"J72","name":"centinewton metre","symbol":"cN·m","multiplier":1e-2,"offset":0,"type":"torque"},
+			
 		{"rec20":"WTT","name":"watt","symbol":"W","multiplier":1,"offset":0,"type":"power"},
 		{"rec20":"KWT","name":"kilowatt","symbol":"kW","multiplier":1e3,"offset":0,"type":"power"},
 		{"rec20":"MAW","name":"megawatt","symbol":"MW","multiplier":1e6,"offset":0,"type":"power"},
