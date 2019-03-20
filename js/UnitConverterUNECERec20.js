@@ -244,6 +244,10 @@ class UnitConverterUNECERec20 {
 		{"rec20":"CGM","name":"centigram","symbol":"cg","multiplier":0.00001,"offset":0,"type":"mass"},
 		{"rec20":"MGM","name":"milligram","symbol":"mg","multiplier":0.000001,"offset":0,"type":"mass"},
 		{"rec20":"MC","name":"microgram","symbol":"µg","multiplier":0.000000001,"offset":0,"type":"mass"},
+		{"rec20":"F13","name":"slug","symbol":"slug","multiplier":14.5939,"offset":0,"type":"mass"},
+		{"rec20":"CWI","name":"hundred weight (UK)","symbol":"cwt (UK)","multiplier":50.8023,"offset":0,"type":"mass"},
+		{"rec20":"CWA","name":"hundred pound (cwt) / hundred weight (US)","symbol":"cwt (US)","multiplier":45.3592,"offset":0,"type":"mass"},
+		{"rec20":"M86","name":"pfund","symbol":"pfd","multiplier":0.5,"offset":0,"type":"mass"},
 						
 		{"rec20":"MTR","name":"metre","symbol":"m","multiplier":1,"offset":0,"type":"length"},
 		{"rec20":"A11","name":"angstrom","symbol":"Å","multiplier":1E-10,"offset":0,"type":"length"},
