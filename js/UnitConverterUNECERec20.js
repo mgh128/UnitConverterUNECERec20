@@ -452,6 +452,13 @@ class UnitConverterUNECERec20 {
 		{"rec20":"D74","name":"kilogram per mole","symbol":"kg/mol","multiplier":1,"offset":0,"type":"molar mass"},
 		{"rec20":"A94","name":"gram per mole","symbol":"g/mol","multiplier":1e-3,"offset":0,"type":"molar mass"},
 
+		{"rec20":"C36","name":"mole per cubic metre","symbol":"mol/m³","multiplier":1,"offset":0,"type":"molar concentration"},
+		{"rec20":"M33","name":"millimole per litre","symbol":"mmol/l","multiplier":1,"offset":0,"type":"molar concentration"},
+		{"rec20":"C38","name":"mole per litre","symbol":"mol/l","multiplier":1e3,"offset":0,"type":"molar concentration"},
+		{"rec20":"C35","name":"mole per cubic decimetre","symbol":"mol/dm³","multiplier":1e3,"offset":0,"type":"molar concentration"},
+		{"rec20":"B46","name":"kilomole per cubic metre","symbol":"kmol/m³","multiplier":1e3,"offset":0,"type":"molar concentration"},
+
+
 		{"rec20":"A40","name":"cubic metre per mole","symbol":"m³/mol","multiplier":1,"offset":0,"type":"molar volume"},
 		{"rec20":"A37","name":"cubic decimetre per mole","symbol":"dm³/mol","multiplier":1e-3,"offset":0,"type":"molar volume"},
 		{"rec20":"A36","name":"cubic centimetre per mole","symbol":"cm³/mol","multiplier":1e-6,"offset":0,"type":"molar volume"},
