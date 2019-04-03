@@ -458,6 +458,28 @@ class UnitConverterUNECERec20 {
 		{"rec20":"C35","name":"mole per cubic decimetre","symbol":"mol/dm³","multiplier":1e3,"offset":0,"type":"molar concentration"},
 		{"rec20":"B46","name":"kilomole per cubic metre","symbol":"kmol/m³","multiplier":1e3,"offset":0,"type":"molar concentration"},
 
+		{"rec20":"P1","name":"percent","symbol":"%","multiplier":1e-2,"offset":0,"type":"dimensionless concentration"},
+		{"rec20":"59","name":"part per million","symbol":"ppm","multiplier":1e-6,"offset":0,"type":"dimensionless concentration"},
+		{"rec20":"61","name":"part per billion (US)","symbol":"ppm","multiplier":1e-9,"offset":0,"type":"dimensionless concentration"},
+		{"rec20":"60","name":"percent weight","symbol":"wt%","multiplier":1e-2,"offset":0,"type":"dimensionless concentration"},
+		{"rec20":"E40","name":"part per hundred thousand","symbol":"ppht","multiplier":1e-5,"offset":0,"type":"dimensionless concentration"},
+		{"rec20":"NX","name":"part per thousand, per mille","symbol":"‰","multiplier":1e-3,"offset":0,"type":"dimensionless concentration"},
+
+		{"rec20":"GK","name":"gram per kilogram","symbol":"g/kg","multiplier":1e-3,"offset":0,"type":"dimensionless concentration"},
+		{"rec20":"NA","name":"milligram per kilogram","symbol":"mg/kg","multiplier":1e-6,"offset":0,"type":"dimensionless concentration"},
+		{"rec20":"J33","name":"microgram per kilogram","symbol":"µg/kg","multiplier":1e-9,"offset":0,"type":"dimensionless concentration"},
+		{"rec20":"L32","name":"nanogram per kilogram","symbol":"ng/kg","multiplier":1e-12,"offset":0,"type":"dimensionless concentration"},
+		{"rec20":"M29","name":"kilogram per kilogram","symbol":"kg/kg","multiplier":1,"offset":0,"type":"dimensionless concentration"},
+
+		{"rec20":"K62","name":"litre per litre","symbol":"l/l","multiplier":1,"offset":0,"type":"dimensionless concentration"},
+		{"rec20":"L19","name":"millilitre per litre","symbol":"ml/l","multiplier":1e-3,"offset":0,"type":"dimensionless concentration"},
+		{"rec20":"J36","name":"microlitre per litre","symbol":"µl/l","multiplier":1e-6,"offset":0,"type":"dimensionless concentration"},
+
+		{"rec20":"H60","name":"cubic metre per cubic metre","symbol":"m³/m³","multiplier":1,"offset":0,"type":"dimensionless concentration"},
+		{"rec20":"H65","name":"millilitre per cubic metre","symbol":"ml/m³","multiplier":1e-6,"offset":0,"type":"dimensionless concentration"},
+		{"rec20":"J87","name":"cubic centimetre per cubic metre","symbol":"cm³/m³","multiplier":1e-6,"offset":0,"type":"dimensionless concentration"},
+		{"rec20":"L21","name":"cubic millimetre per cubic metre","symbol":"mm³/m³","multiplier":1e-9,"offset":0,"type":"dimensionless concentration"},
+		{"rec20":"J91","name":"cubic decimetre per cubic metre","symbol":"dm³/m³","multiplier":1e-3,"offset":0,"type":"dimensionless concentration"},
 
 		{"rec20":"A40","name":"cubic metre per mole","symbol":"m³/mol","multiplier":1,"offset":0,"type":"molar volume"},
 		{"rec20":"A37","name":"cubic decimetre per mole","symbol":"dm³/mol","multiplier":1e-3,"offset":0,"type":"molar volume"},
