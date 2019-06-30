@@ -3,6 +3,7 @@ package org.oliot.unit_converter;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+import org.oliot.unit_converter.unit.Pressure;
 
 public class PressureTest {
 
