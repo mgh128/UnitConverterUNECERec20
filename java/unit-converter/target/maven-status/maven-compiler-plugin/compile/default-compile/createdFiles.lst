@@ -1,0 +1,8 @@
+org\oliot\unit_converter\Temperature.class
+org\oliot\unit_converter\DensityHumidity$Type.class
+org\oliot\unit_converter\Temperature$Type.class
+org\oliot\unit_converter\JsonParser.class
+org\oliot\unit_converter\Pressure.class
+org\oliot\unit_converter\DensityHumidity.class
+org\oliot\unit_converter\Pressure$Type.class
+org\oliot\unit_converter\UnitConverter.class
