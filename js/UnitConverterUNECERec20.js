@@ -535,7 +535,8 @@ class UnitConverterUNECERec20 {
 		{"rec20":"P76","name":"microsievert per minute","symbol":"µSv/min","multiplier":1.666666667e-8,"offset":0,"type":"effective dose rate"},
 		{"rec20":"P77","name":"nanosievert per minute","symbol":"nSv/min","multiplier":1.666666667e-11,"offset":0,"type":"effective dose rate"},
 		
-
+		{"rec20":"B7","name":"cycle","type":"count"}
+			
 		];
 	}
 
