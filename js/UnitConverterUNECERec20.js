@@ -115,6 +115,10 @@ class UnitConverterUNECERec20 {
 		{"rec20":"N11","name":"pound inch per second","symbol":"lb·in/s","multiplier":0.01152125,"offset":0,"type":"impulse"},
 
 
+		{"rec20":"C53","name":"newton metre second","symbol":"N·m·s","multiplier":1,"offset":0,"type":"angular impulse"},
+		{"rec20":"B33","name":"kilogram metre squared per second","symbol":"kg·m²/s","multiplier":1,"offset":0,"type":"angular impulse"},
+			
+			
 		{"rec20":"JOU","name":"joule","symbol":"J","multiplier":1,"offset":0,"type":"energy"},
 		{"rec20":"KJO","name":"kilojoule","symbol":"kJ","multiplier":1e3,"offset":0,"type":"energy"},
 		{"rec20":"A68","name":"exajoule","symbol":"EJ","multiplier":1e18,"offset":0,"type":"energy"},
