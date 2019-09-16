@@ -106,6 +106,15 @@ class UnitConverterUNECERec20 {
 		{"rec20":"M77","name":"kilogram metre per second squared","symbol":"kg·m/s²","multiplier":1,"offset":0,"type":"force"},
 		{"rec20":"M78","name":"pond","symbol":"p","multiplier":9.80665e-3,"offset":0,"type":"force"},
 
+
+		{"rec20":"C57","name":"newton second","symbol":"Ns","multiplier":1,"offset":0,"type":"impulse"},
+		{"rec20":"B31","name":"kilogram metre per second","symbol":"kg·m/s","multiplier":1,"offset":0,"type":"impulse"},
+		{"rec20":"M98","name":"kilogram centimetre per second","symbol":"kg·cm/s","multiplier":1e-2,"offset":0,"type":"impulse"},
+		{"rec20":"M99","name":"gram centimetre per second","symbol":"g·cm/s","multiplier":1e-5,"offset":0,"type":"impulse"},
+		{"rec20":"N10","name":"pound foot per second","symbol":"lb·ft/s","multiplier":0.1382550,"offset":0,"type":"impulse"},
+		{"rec20":"N11","name":"pound inch per second","symbol":"lb·in/s","multiplier":0.01152125,"offset":0,"type":"impulse"},
+
+
 		{"rec20":"JOU","name":"joule","symbol":"J","multiplier":1,"offset":0,"type":"energy"},
 		{"rec20":"KJO","name":"kilojoule","symbol":"kJ","multiplier":1e3,"offset":0,"type":"energy"},
 		{"rec20":"A68","name":"exajoule","symbol":"EJ","multiplier":1e18,"offset":0,"type":"energy"},
@@ -142,6 +151,7 @@ class UnitConverterUNECERec20 {
 		{"rec20":"J55","name":"watt second","symbol":"Ws","multiplier":1,"offset":0,"type":"energy"},
 
 		{"rec20":"NU","name":"newton metre","symbol":"N·m","multiplier":1,"offset":0,"type":"torque"},
+		{"rec20":"F88","name":"newton centimetre","symbol":"N·cm","multiplier":1e-2,"offset":0,"type":"torque"},
 		{"rec20":"B74","name":"meganewton metre","symbol":"MN·m","multiplier":1e6,"offset":0,"type":"torque"},
 		{"rec20":"B48","name":"kilonewton metre","symbol":"kN·m","multiplier":1e3,"offset":0,"type":"torque"},
 		{"rec20":"D83","name":"millinewton metre","symbol":"mN·m","multiplier":1e-3,"offset":0,"type":"torque"},
