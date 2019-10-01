@@ -540,6 +540,10 @@ class UnitConverterUNECERec20 {
 		{"rec20":"P25","name":"lumen per square foot ","symbol":"lm/ft²","multiplier":1.076391e1,"offset":0,"type":"illuminance"},
 		{"rec20":"P26","name":"phot","symbol":"ph","multiplier":1e4,"offset":0,"type":"illuminance"},
 		{"rec20":"P27","name":"footcandle","symbol":"ftc","multiplier":1.076391e1,"offset":0,"type":"illuminance"},
+
+		{"rec20":"B63","name":"lux hour","symbol":"lx·h","multiplier":3.6e3,"offset":0,"type":"exposure"},
+		{"rec20":"B64","name":"lux second","symbol":"lx·s","multiplier":1,"offset":0,"type":"exposure"},
+
 			
 		{"rec20":"C34","name":"mole","symbol":"mol","multiplier":1,"offset":0,"type":"amount of substance"},
 		{"rec20":"B45","name":"kilomole","symbol":"kmol","multiplier":1.00E+03,"offset":0,"type":"amount of substance"},
