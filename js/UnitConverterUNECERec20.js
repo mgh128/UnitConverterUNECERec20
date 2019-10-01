@@ -310,6 +310,11 @@ class UnitConverterUNECERec20 {
 		{"rec20":"M49","name":"chain (based on US survey foot)","symbol":"ch (US survey)","multiplier":20.11684,"offset":0,"type":"length"},
 		{"rec20":"X1","name":"Gunter's chain","symbol":"ch (UK)","multiplier":20.1168,"offset":0,"type":"length"},
 		{"rec20":"M51","name":"foot (US survey)","symbol":"ft (US survey)","multiplier":0.3048006,"offset":0,"type":"length"},
+		{"rec20":"HL","name":"hundred foot (linear)","symbol":"hundred ft","multiplier":30.48,"offset":0,"type":"length"},
+		{"rec20":"LF","name":"linear foot","symbol":"lft","multiplier":0.3048,"offset":0,"type":"length"},
+		{"rec20":"LK","name":"link","symbol":"lnk","multiplier":0.201168,"offset":0,"type":"length"},
+		{"rec20":"LM","name":"linear metre","symbol":"lm","multiplier":1,"offset":0,"type":"length"},
+		{"rec20":"SMI","name":"mile (statute mile)","symbol":"mile","multiplier":1609.344,"offset":0,"type":"length"},
 			
 		{"rec20":"MTK","name":"square metre","symbol":"m²","multiplier":1,"offset":0,"type":"area"},
 		{"rec20":"KMK","name":"square kilometre","symbol":"km²","multiplier":1e6,"offset":0,"type":"area"},
