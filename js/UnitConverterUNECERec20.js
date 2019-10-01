@@ -412,6 +412,13 @@ class UnitConverterUNECERec20 {
 		{"rec20":"IU","name":"inch per second","symbol":"in/s","multiplier":0.0254,"offset":0,"type":"speed"},
 		{"rec20":"M61","name":"inch per year","symbol":"in/y","multiplier":8.048774E-10,"offset":0,"type":"speed"},
 		{"rec20":"2X","name":"metre per minute","symbol":"m/min","multiplier":1/60,"offset":0,"type":"speed"},
+		{"rec20":"C16","name":"millimetre per second","symbol":"mm/s","multiplier":1e-3,"offset":0,"type":"speed"},
+		{"rec20":"H67","name":"millimetre per hour","symbol":"mm/h","multiplier":2.777777777777e-7,"offset":0,"type":"speed"},
+		{"rec20":"H81","name":"millimetre per minute","symbol":"mm/min","multiplier":1.6666666666666e-5,"offset":0,"type":"speed"},
+		{"rec20":"M60","name":"metre per hour","symbol":"m/h","multiplier":2.777777777777e-4,"offset":0,"type":"speed"},
+		{"rec20":"M64","name":"yard per second","symbol":"yd/s","multiplier":0.9144,"offset":0,"type":"speed"},
+		{"rec20":"M65","name":"yard per minute","symbol":"yd/min","multiplier":0.01524,"offset":0,"type":"speed"},
+		{"rec20":"M66","name":"yard per hour","symbol":"yd/h","multiplier":0.000254,"offset":0,"type":"speed"},
 			
 		{"rec20":"MSK","name":"metre per second squared","symbol":"m/s²","multiplier":1,"offset":0,"type":"acceleration"},
 		{"rec20":"A76","name":"gal","symbol":"Gal","multiplier":1e-2,"offset":0,"type":"acceleration"},
