@@ -635,6 +635,13 @@ class UnitConverterUNECERec20 {
 		{"rec20":"E68","name":"gigabyte/second","symbol":"Gbyte/s","multiplier":8e9,"offset":0,"type":"data rate"},
 		{"rec20":"Q13","name":"octet/second","symbol":"o/s","multiplier":8,"offset":0,"type":"data rate"},
 
+		{"rec20":"4C","name":"centistokes","symbol":"cSt","multiplier":1e-6,"offset":0,"type":"kinematic viscosity"},
+		{"rec20":"91","name":"stokes","symbol":"St","multiplier":1e-4,"offset":0,"type":"kinematic viscosity"},
+		{"rec20":"C17","name":"millimetre squared per second","symbol":"mm²/s","multiplier":1e-6,"offset":0,"type":"kinematic viscosity"},
+		{"rec20":"M79","name":"square foot per hour ","symbol":"ft²/h","multiplier":2.58064e-5,"offset":0,"type":"kinematic viscosity"},
+		{"rec20":"M81","name":"square centimetre per second","symbol":"cm²/s","multiplier":1e-4,"offset":0,"type":"kinematic viscosity"},
+		{"rec20":"S3","name":"square foot per second","symbol":"ft²/s","multiplier":0.09290304,"offset":0,"type":"kinematic viscosity"},
+		{"rec20":"S4","name":"square metre per second","symbol":"m²/s","multiplier":1,"offset":0,"type":"kinematic viscosity"},
 			
 		{"rec20":"2J","name":"cubic centimetre per second","symbol":"cm³/s","multiplier":1e-6,"offset":0,"type":"flow rate"},
 		{"rec20":"2K","name":"cubic foot per hour","symbol":"ft³/h","multiplier":7.86579e-6,"offset":0,"type":"flow rate"},
