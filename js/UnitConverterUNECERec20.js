@@ -657,7 +657,7 @@ class UnitConverterUNECERec20 {
 		{"rec20":"M15","name":"cubic yard per minute","symbol":"yd³/min","multiplier":1.274258e-2,"offset":0,"type":"flow rate"},
 		{"rec20":"M16","name":"cubic yard per second","symbol":"yd³/s","multiplier":0.7645549,"offset":0,"type":"flow rate"},
 		{"rec20":"MQH","name":"cubic metre per hour","symbol":"m³/h","multiplier":2.77778e-4,"offset":0,"type":"flow rate"},
-		{"rec20":"MQS","name":"cubic metre per second","symbol":"m³/s","multiplier":,"offset":0,"type":"flow rate"},
+		{"rec20":"MQS","name":"cubic metre per second","symbol":"m³/s","multiplier":1,"offset":0,"type":"flow rate"},
 		{"rec20":"Q37","name":"Standard cubic metre per day","symbol":"std.m³/d","multiplier":1.15741e-5,"offset":0,"type":"flow rate"},
 		{"rec20":"Q38","name":"Standard cubic metre per hour","symbol":"std.m³/h","multiplier":2.77778e-4,"offset":0,"type":"flow rate"},
 		{"rec20":"Q39","name":"Normalized cubic metre per day","symbol":"norm.m³/d","multiplier":1.15741e-5,"offset":0,"type":"flow rate"},
