@@ -293,6 +293,7 @@ class UnitConverterUNECERec20 {
 		{"rec20":"E4","name":"gross kilogram","symbol":"","multiplier":1,"offset":0,"type":"mass"},
 		{"rec20":"GRN","name":"grain","symbol":"gr","multiplier":64.79891e-6,"offset":0,"type":"mass"},
 		{"rec20":"PN","name":"pound net","symbol":"","multiplier":0.45359237,"offset":0,"type":"mass"},
+		{"rec20":"DWT","name":"pennyweight","symbol":"dwt","multiplier":1.555174e-3,"offset":0,"type":"mass"},
 						
 		{"rec20":"MTR","name":"metre","symbol":"m","multiplier":1,"offset":0,"type":"length"},
 		{"rec20":"A11","name":"angstrom","symbol":"Å","multiplier":1E-10,"offset":0,"type":"length"},
