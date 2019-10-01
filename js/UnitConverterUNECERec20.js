@@ -400,6 +400,15 @@ class UnitConverterUNECERec20 {
 		{"rec20":"M70","name":"ton. register ","symbol":"RT","multiplier":2.831685,"offset":0,"type":"volume"},
 		{"rec20":"BFT","name":"board foot","symbol":"fbm","multiplier":3.6245563638,"offset":0,"type":"volume"},
 		{"rec20":"BP","name":"hundred board foot","symbol":"hundred fbm","multiplier":362.45563638,"offset":0,"type":"volume"},
+		{"rec20":"5I","name":"standard cubic foot","symbol":"std","multiplier":4.672,"offset":0,"type":"volume"},
+		{"rec20":"GIA","name":"gill (US)","symbol":"gi (US)","multiplier":1.182941e-4,"offset":0,"type":"volume"},
+		{"rec20":"GII","name":"gill (UK)","symbol":"gi (UK)","multiplier":1.420653e-4,"offset":0,"type":"volume"},
+		{"rec20":"NM3","name":"Normalised cubic metre","symbol":"","multiplier":1,"offset":0,"type":"volume"},
+		{"rec20":"R9","name":"thousand cubic metre","symbol":"","multiplier":1e3,"offset":0,"type":"volume"},
+		{"rec20":"SM3","name":"Standard cubic metre","symbol":"","multiplier":1,"offset":0,"type":"volume"},
+		{"rec20":"T6","name":"thousand gallon (US)","symbol":"","multiplier":3.785412,"offset":0,"type":"volume"},
+		{"rec20":"WCD","name":"cord","symbol":"","multiplier":3.63,"offset":0,"type":"volume"},
+		{"rec20":"WSD","name":"standard","symbol":"std","multiplier":4.672,"offset":0,"type":"volume"},
 
 			
 		{"rec20":"KMH","name":"kilometres per hour","symbol":"km/h","multiplier":0.277777778,"offset":0,"type":"speed"},
