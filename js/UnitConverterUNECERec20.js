@@ -287,6 +287,12 @@ class UnitConverterUNECERec20 {
 		{"rec20":"CWI","name":"hundred weight (UK)","symbol":"cwt (UK)","multiplier":50.8023,"offset":0,"type":"mass"},
 		{"rec20":"CWA","name":"hundred pound (cwt) / hundred weight (US)","symbol":"cwt (US)","multiplier":45.3592,"offset":0,"type":"mass"},
 		{"rec20":"M86","name":"pfund","symbol":"pfd","multiplier":0.5,"offset":0,"type":"mass"},
+		{"rec20":"58","name":"net kilogram","symbol":"","multiplier":1,"offset":0,"type":"mass"},
+		{"rec20":"DRA","name":"dram (US)","symbol":"","multiplier":3.887935e-3,"offset":0,"type":"mass"},
+		{"rec20":"DRI","name":"dram (UK)","symbol":"","multiplier":1.771745e-3,"offset":0,"type":"mass"},
+		{"rec20":"E4","name":"gross kilogram","symbol":"","multiplier":1,"offset":0,"type":"mass"},
+		{"rec20":"GRN","name":"grain","symbol":"gr","multiplier":64.79891e-6,"offset":0,"type":"mass"},
+		{"rec20":"PN","name":"pound net","symbol":"","multiplier":0.45359237,"offset":0,"type":"mass"},
 						
 		{"rec20":"MTR","name":"metre","symbol":"m","multiplier":1,"offset":0,"type":"length"},
 		{"rec20":"A11","name":"angstrom","symbol":"Å","multiplier":1E-10,"offset":0,"type":"length"},
