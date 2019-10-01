@@ -154,6 +154,14 @@ class UnitConverterUNECERec20 {
 		{"rec20":"N72","name":"therm (US)","symbol":"thm(US)","multiplier":1.054804E8,"offset":0,"type":"energy"},
 		{"rec20":"J55","name":"watt second","symbol":"Ws","multiplier":1,"offset":0,"type":"energy"},
 
+		{"rec20":"A60","name":"erg per cubic centimetre","symbol":"erg/cm³","multiplier":1e-1,"offset":0,"type":"energy density"},
+		{"rec20":"B8","name":"joule per cubic metre","symbol":"J/m³","multiplier":1,"offset":0,"type":"energy density"},
+		{"rec20":"E46","name":"kilowatt hour per cubic metre","symbol":"kW·h/m³","multiplier":3.6e6,"offset":0,"type":"energy density"},
+		{"rec20":"JM","name":"megajoule per cubic metre","symbol":"MJ/m³","multiplier":1e6,"offset":0,"type":"energy density"},
+		{"rec20":"N58","name":"British thermal unit (international table) per cubic foot ","symbol":"BtuIT/ft³","multiplier":3.725895e4,"offset":0,"type":"energy density"},
+		{"rec20":"N59","name":"British thermal unit (thermochemical) per cubic foot","symbol":"Btuth/ft³","multiplier":3.723403e4,"offset":0,"type":"energy density"},
+		{"rec20":"92","name":"calorie per cubic centimetre","symbol":"cal/cm³","multiplier":4186800,"offset":0,"type":"energy density"},			
+			
 		{"rec20":"NU","name":"newton metre","symbol":"N·m","multiplier":1,"offset":0,"type":"torque"},
 		{"rec20":"F88","name":"newton centimetre","symbol":"N·cm","multiplier":1e-2,"offset":0,"type":"torque"},
 		{"rec20":"B74","name":"meganewton metre","symbol":"MN·m","multiplier":1e6,"offset":0,"type":"torque"},
