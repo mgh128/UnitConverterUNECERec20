@@ -287,6 +287,12 @@ class UnitConverterUNECERec20 {
 		{"rec20":"D62","name":"second","symbol":"\"","multiplier":0.000004848136811,"offset":0,"type":"angle"},
 		{"rec20":"M43","name":"mil","symbol":"mil","multiplier":0.0009817477042,"offset":0,"type":"angle"},
 		{"rec20":"M44","name":"revolution","symbol":"rev","multiplier":6.283185307,"offset":0,"type":"angle"},	
+
+		{"rec20":"2A","name":"radians per second","symbol":"rad/s","multiplier":1,"offset":0,"type":"angular velocity"},
+		{"rec20":"M46","name":"revolutions per minute","symbol":"r/min","multiplier":0.104719755,"offset":0,"type":"angular velocity"},
+		{"rec20":"RPM","name":"revolutions per minute","symbol":"r/min","multiplier":0.104719755,"offset":0,"type":"angular velocity"},
+		{"rec20":"RPS","name":"revolutions per second","symbol":"r/s","multiplier":6.2831853,"offset":0,"type":"angular velocity"},
+
 			
 		{"rec20":"KGM","name":"kilogram","symbol":"kg","multiplier":1,"offset":0,"type":"mass"},
 		{"rec20":"KTN","name":"kilotonne","symbol":"kt","multiplier":1000000,"offset":0,"type":"mass"},
