@@ -475,6 +475,9 @@ class UnitConverterUNECERec20 {
 		{"rec20":"MHZ","name":"megahertz","symbol":"MHz","multiplier":1.00E+06,"offset":0,"type":"frequency"},
 		{"rec20":"A86","name":"gigahertz","symbol":"GHz","multiplier":1.00E+09,"offset":0,"type":"frequency"},
 		{"rec20":"D29","name":"terahertz","symbol":"THz","multiplier":1.00E+12,"offset":0,"type":"frequency"},
+		{"rec20":"C97","name":"reciprocal second","symbol":"/s","multiplier":1,"offset":0,"type":"frequency"},
+		{"rec20":"C94","name":"reciprocal minute","symbol":"/min","multiplier":1/60,"offset":0,"type":"frequency"},
+			
 
 		{"rec20":"SEC","name":"second","symbol":"s","multiplier":1,"offset":0,"type":"time"},
 		{"rec20":"MIN","name":"minute","symbol":"min","multiplier":60,"offset":0,"type":"time"},
