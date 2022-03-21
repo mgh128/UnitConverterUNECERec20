@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "uncefact": "https://service.unece.org/trade/uncefact/vocabulary/uncefact#",
+    "rec20": "https://service.unece.org/trade/uncefact/vocabulary/rec20/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "unit": "http://qudt.org/vocab/unit/"
+  },
+  "@graph": [
+    {
+      "@id": "rec20:KEL",
+      "@type": "uncefact:UNECERec20Code",
+      "rdfs:comment": "Refer ISO 80000-5 (Quantities and units — Part 5: Thermodynamics)",
+      "rdf:value": "KEL",
+      "rdfs:label": "kelvin",
+      "rdfs:seeAlso": "unit:K",
+      "uncefact:levelCategory": "1",
+      "uncefact:symbol": "K",
+      "uncefact:conversionFactor": "K",
+      "uncefact:conversionMultiplier": 1,
+      "uncefact:conversionDivisor": 1,
+      "uncefact:conversionOffset": 0,
+      "uncefact:siUnit": "rec20:KEL",
+      "uncefact:status": ""
+    },
+    {
+      "@id": "rec20:CEL",
+      "@type": "uncefact:UNECERec20Code",
+      "rdfs:comment": "Refer ISO 80000-5 (Quantities and units — Part 5: Thermodynamics)",
+      "rdf:value": "CEL",
+      "rdfs:label": "degree Celsius",
+      "rdfs:seeAlso": "unit:K",
+      "rdfs:seeAlso": "unit:DEG_C",
+      "uncefact:levelCategory": "1",
+      "uncefact:symbol": "°C",
+      "uncefact:conversionFactor": "1 x K",
+      "uncefact:conversionMultiplier": 1,
+      "uncefact:conversionDivisor": 1,
+      "uncefact:conversionOffset": 273.15,
+      "uncefact:siUnit": "rec20:KEL",
+      "uncefact:status": ""
+    },
+    {
+      "@id": "rec20:A48",
+      "@type": "uncefact:UNECERec20Code",
+      "rdfs:comment": "Refer ISO 80000-5 (Quantities and units — Part 5: Thermodynamics)",
+      "rdf:value": "A48",
+      "rdfs:label": "degree Rankine",
+      "rdfs:seeAlso": "unit:DEG_R",
+      "uncefact:levelCategory": "2",
+      "uncefact:symbol": "°R",
+      "uncefact:conversionFactor": "5/9 x K",
+      "uncefact:conversionMultiplier": 5,
+      "uncefact:conversionDivisor": 9,
+      "uncefact:conversionOffset": 0,
+      "uncefact:siUnit": "rec20:KEL",
+      "uncefact:status": ""
+    },
+    {
+      "@id": "rec20:FAH",
+      "@type": "uncefact:UNECERec20Code",
+      "rdfs:comment": "Refer ISO 80000-5 (Quantities and units — Part 5: Thermodynamics)",
+      "rdf:value": "FAH",
+      "rdfs:label": "degree Fahrenheit",
+      "rdfs:seeAlso": "unit:DEG_F",
+      "uncefact:levelCategory": "2",
+      "uncefact:symbol": "°F",
+      "uncefact:conversionFactor": "5/9 x K",
+      "uncefact:conversionMultiplier": 5,
+      "uncefact:conversionDivisor": 9,
+      "uncefact:conversionOffset": 459.67,
+      "uncefact:siUnit": "rec20:KEL",
+      "uncefact:status": ""
+    }
+  ]
+}
