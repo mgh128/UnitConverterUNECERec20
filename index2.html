@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css" rel="stylesheet">
+  .highlighted { background-color: #FFFF00; border: 2px solid red;}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script id="Rec20extract" type="application/json">
+{
+  "@context": {
+    "uncefact": "https://service.unece.org/trade/uncefact/vocabulary/uncefact#",
+    "rec20": "https://service.unece.org/trade/uncefact/vocabulary/rec20/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "unit": "http://qudt.org/vocab/unit/"
+  },
+  "@graph": [
+    {
+      "@id": "rec20:KEL",
+      "@type": "uncefact:UNECERec20Code",
+      "rdfs:comment": "Refer ISO 80000-5 (Quantities and units — Part 5: Thermodynamics)",
+      "rdf:value": "KEL",
+      "rdfs:label": "kelvin",
+      "rdfs:seeAlso": "unit:K",
+      "uncefact:levelCategory": "1",
+      "uncefact:symbol": "K",
+      "uncefact:conversionFactor": "K",
+      "uncefact:conversionMultiplier": 1,
+      "uncefact:conversionDivisor": 1,
+      "uncefact:conversionOffset": 0,
+      "uncefact:siUnit": "rec20:KEL",
+      "uncefact:status": ""
+    },
+    {
+      "@id": "rec20:CEL",
+      "@type": "uncefact:UNECERec20Code",
+      "rdfs:comment": "Refer ISO 80000-5 (Quantities and units — Part 5: Thermodynamics)",
+      "rdf:value": "CEL",
+      "rdfs:label": "degree Celsius",
+      "rdfs:seeAlso": "unit:K",
+      "rdfs:seeAlso": "unit:DEG_C",
+      "uncefact:levelCategory": "1",
+      "uncefact:symbol": "°C",
+      "uncefact:conversionFactor": "1 x K",
+      "uncefact:conversionMultiplier": 1,
+      "uncefact:conversionDivisor": 1,
+      "uncefact:conversionOffset": 273.15,
+      "uncefact:siUnit": "rec20:KEL",
+      "uncefact:status": ""
+    },
+    {
+      "@id": "rec20:A48",
+      "@type": "uncefact:UNECERec20Code",
+      "rdfs:comment": "Refer ISO 80000-5 (Quantities and units — Part 5: Thermodynamics)",
+      "rdf:value": "A48",
+      "rdfs:label": "degree Rankine",
+      "rdfs:seeAlso": "unit:DEG_R",
+      "uncefact:levelCategory": "2",
+      "uncefact:symbol": "°R",
+      "uncefact:conversionFactor": "5/9 x K",
+      "uncefact:conversionMultiplier": 5,
+      "uncefact:conversionDivisor": 9,
+      "uncefact:conversionOffset": 0,
+      "uncefact:siUnit": "rec20:KEL",
+      "uncefact:status": ""
+    },
+    {
+      "@id": "rec20:FAH",
+      "@type": "uncefact:UNECERec20Code",
+      "rdfs:comment": "Refer ISO 80000-5 (Quantities and units — Part 5: Thermodynamics)",
+      "rdf:value": "FAH",
+      "rdfs:label": "degree Fahrenheit",
+      "rdfs:seeAlso": "unit:DEG_F",
+      "uncefact:levelCategory": "2",
+      "uncefact:symbol": "°F",
+      "uncefact:conversionFactor": "5/9 x K",
+      "uncefact:conversionMultiplier": 5,
+      "uncefact:conversionDivisor": 9,
+      "uncefact:conversionOffset": 459.67,
+      "uncefact:siUnit": "rec20:KEL",
+      "uncefact:status": ""
+    },
+    {
+      "@id": "rec20:GRM",
+      "@type": "uncefact:UNECERec20Code",
+      "rdf:value": "GRM",
+      "rdfs:label": "gram",
+      "rdfs:comment": "",
+      "uncefact:conversionFactor": "10⁻³ kg",
+      "uncefact:levelCategory": "1S",
+      "uncefact:status": "",
+      "uncefact:symbol": "g",
+      "uncefact:conversionMultiplier": 1,
+      "uncefact:conversionDivisor": 1000,
+      "uncefact:conversionOffset": 0,
+      "uncefact:siUnit": "rec20:KGM"
+    },
+    {
+      "@id": "rec20:KGM",
+      "@type": "uncefact:UNECERec20Code",
+      "rdf:value": "KGM",
+      "rdfs:label": "kilogram",
+      "rdfs:comment": "A unit of mass equal to one thousand grams.",
+      "uncefact:conversionFactor": "kg",
+      "uncefact:levelCategory": "1",
+      "uncefact:status": "",
+      "uncefact:symbol": "kg",
+      "uncefact:conversionMultiplier": 1,
+      "uncefact:conversionDivisor": 1,
+      "uncefact:conversionOffset": 0,
+      "uncefact:siUnit": "rec20:KGM"
+    },
+    {
+      "@id": "rec20:MC",
+      "@type": "uncefact:UNECERec20Code",
+      "rdf:value": "MC",
+      "rdfs:label": "microgram",
+      "rdfs:comment": "",
+      "uncefact:conversionFactor": "10⁻⁹ kg",
+      "uncefact:levelCategory": "1S",
+      "uncefact:status": "",
+      "uncefact:symbol": "µg",
+      "uncefact:conversionMultiplier": 1,
+      "uncefact:conversionDivisor": 1000000000,
+      "uncefact:conversionOffset": 0,
+      "uncefact:siUnit": "rec20:KGM"
+    },
+    {
+      "@id": "rec20:MGM",
+      "@type": "uncefact:UNECERec20Code",
+      "rdf:value": "MGM",
+      "rdfs:label": "milligram",
+      "rdfs:comment": "",
+      "uncefact:conversionFactor": "10⁻⁶ kg",
+      "uncefact:levelCategory": "1S",
+      "uncefact:status": "",
+      "uncefact:symbol": "mg",
+      "uncefact:conversionMultiplier": 1,
+      "uncefact:conversionDivisor": 1000000,
+      "uncefact:conversionOffset": 0,
+      "uncefact:siUnit": "rec20:KGM"
+    },
+    {
+      "@id": "rec20:TNE",
+      "@type": "uncefact:UNECERec20Code",
+      "rdf:value": "TNE",
+      "rdfs:label": "tonne (metric ton)",
+      "rdfs:comment": "Synonym: metric ton",
+      "uncefact:conversionFactor": "10³ kg",
+      "uncefact:levelCategory": "1S",
+      "uncefact:status": "",
+      "uncefact:symbol": "t",
+      "uncefact:conversionMultiplier": 1000,
+      "uncefact:conversionDivisor": 1,
+      "uncefact:conversionOffset": 0,
+      "uncefact:siUnit": "rec20:KGM"
+    }    
+  ]
+}
+</script>
+
+<style type="text/css">
+body { background-color: #FFFFFF; font-size: 1en; font-family: Arial, Helvetica, Geneva, sans-serif; }
+h1 { text-align: center; }
+table {width: 95%; margin-left: 5%; }
+td {width: 50%;}
+textarea {width: 100%; height: 4em; font-size: 1em;}
+.supportedPropertyType {width: 15%; text-align: right; padding-right: 1em;}
+.supportedPropertyUnits {width: 85%; text-align: left; padding-left: 1em;}
+
+table.supportedProperties  tbody tr:nth-child(odd) { background-color: #ffeecc }
+table.supportedProperties  tbody tr:nth-child(even) { background-color: #ccccff }
+
+select#selectCodeNameOrSymbol { font-size: 1em; font-family: Arial, Helvetica, Geneva, sans-serif; font-weight: 700;}
+
+</style>
+
+</head>
+<body>
+<div id="app1">
+<h1>Simple demo page for UnitConverterUNECERec20</h1>
+
+<p>Input value:
+<input type="number" v-model="inputValue">
+<select v-model="inputUOM">
+	<option v-for="g in rec20Graph" v-bind:value="g['rdf:value']">{{g["rdf:value"]}} ({{g["rdfs:label"]}}}</option>
+</select></p>
+
+<p>Convert to:
+<select v-model="outputUOM" :class="!compatibleUnits ? 'highlighted' : 'normal'">
+	<option v-for="g in interconvertibleUnits" v-bind:value="g['rdf:value']">{{g["rdf:value"]}} ({{g["rdfs:label"]}}}</option>
+</select></p>
+
+<p v-if="compatibleUnits">Result: {{outputValue}} {{outputUOM}}</p>
+<p v-if="!compatibleUnits">Warning! - can't convert between {{inputUOM}} and {{outputUOM}} - please select a different output unit.</p>
+</div>
+
+<script language="javascript">
+
+var rec20Data=JSON.parse(document.getElementById("Rec20extract").textContent);
+var rec20Graph=rec20Data["@graph"];
+
+console.log(rec20Graph[0]);
+
+var inputValue=37;
+var inputUOM="CEL";
+var outputUOM="FAH";
+
+function byRec20code(c) {
+	return function(element) {
+		return element["rdf:value"]==c;
+	}
+}
+
+function bySIunit(c) {
+	return function(element) {
+		return element["uncefact:siUnit"]==c;
+	}
+}
+
+	Vue.createApp({
+		data() {
+          return {
+			rec20Graph : rec20Graph,
+			inputValue : inputValue,
+			inputUOM : inputUOM,
+			outputUOM : outputUOM
+		  }
+		},
+		computed: {
+			inputUOMdata : function() {
+				return rec20Graph.filter(byRec20code(this.inputUOM))[0];
+			},
+			outputUOMdata : function() {
+				return rec20Graph.filter(byRec20code(this.outputUOM))[0];
+			},
+			interconvertibleUnits : function() {
+				return rec20Graph.filter(bySIunit(this.inputUOMdata['uncefact:siUnit']));
+			},
+			outputValue : function() {
+				let a= ((  (this.inputValue + this.inputUOMdata["uncefact:conversionOffset"])*this.inputUOMdata["uncefact:conversionMultiplier"]*this.outputUOMdata["uncefact:conversionDivisor"]/this.inputUOMdata["uncefact:conversionDivisor"]/this.outputUOMdata["uncefact:conversionMultiplier"]) - this.outputUOMdata["uncefact:conversionOffset"]) ;
+				let b= parseFloat(a).toPrecision(12);
+				return parseFloat(b);
+			},
+			compatibleUnits : function() {
+				return (this.inputUOMdata['uncefact:siUnit'] == this.outputUOMdata['uncefact:siUnit']);
+			}
+		}
+	}).mount("#app1");
+
+</script>		
+
+
+
+</body>
+</html>
+
